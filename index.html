@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Governance Workflow, demonstrated end to end</title>
+<style>
+:root{--bg:#F2F4F1;--ink:#17212B;--muted:#4A5762;--accent:#1B5A56;--line:#CBD2CD;--card:#FBFCFA;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:3rem 1.25rem 4.5rem}
+.kicker{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(1.9rem,4.5vw,2.5rem);line-height:1.15;margin:.35rem 0 .6rem}
+.sub{color:var(--muted);margin:0 0 1.5rem;max-width:64ch}
+h2{font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .9rem;padding-bottom:.4rem;border-bottom:1px solid var(--line)}
+p,li{margin:0 0 .85rem;max-width:64ch}
+ul{padding-left:1.2rem}
+video{width:100%;display:block;border-radius:10px;border:1px solid var(--line);background:#000;margin:1rem 0}
+.note{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:1rem 1.2rem;margin:1.5rem 0}
+.note p{margin:0;max-width:none}
+.foot{color:var(--muted);font-size:.85rem;margin-top:2.6rem;border-top:1px solid var(--line);padding-top:1rem}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="kicker">Portfolio demo</p>
+<h1>AI Governance Workflow, demonstrated end to end</h1>
+<p class="sub">A narrated walkthrough of an AI governance process I built: intake, screening, scoring, tiered oversight, and the audit trail an AI system leaves behind, shown on one real case.</p>
+
+<video controls preload="metadata"><source src="media/governance-flow-demo.mp4" type="video/mp4"></video>
+
+<h2>What it shows</h2>
+<ul>
+<li><strong>Intake.</strong> Every system gets logged before it goes live, with what data it touches and how big the decision is.</li>
+<li><strong>Screening.</strong> A check against uses the law forbids outright, and a check for conflicts across jurisdictions.</li>
+<li><strong>Scoring and tiering.</strong> A fixed set of questions produces a number, and the number decides who signs off and how often the system gets reviewed.</li>
+<li><strong>The register and the clock.</strong> Every system lands in one record, and its legal deadlines start counting against the frameworks that apply to it: the EU AI Act, the NIST AI Risk Management Framework, and ISO/IEC 42001.</li>
+<li><strong>The audit.</strong> The system's first scheduled review finds a real fairness gap, traces it to its cause, and pauses the system until a fix is verified.</li>
+</ul>
+
+<h2>Why</h2>
+<p>Most AI governance advice stays at the policy level: what a company should do. This demonstrates what doing it actually looks like, the sequence of concrete steps, end to end, on a case with a real finding in it rather than a hypothetical.</p>
+
+<div class="note"><p>This page holds the demonstration only. The underlying toolkit is mine, used in my own governance engagements, and isn't distributed or available for download.</p></div>
+
+<p class="foot">David E. Wilson &middot; <a href="https://voxdw.com">voxdw.com</a> &middot; <a href="https://www.linkedin.com/in/daviderinwilson">LinkedIn</a></p>
+</div>
+</body>
+</html>
